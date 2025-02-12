@@ -59,4 +59,4 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 <sup>Fonte: Material produzido pelos autores (2025) </sup>
 </div>
 
-## 2.4 Testes Associados aos Requisitos Nãoo Funcionais
+## 2.4 Testes Associados aos Requisitos Não Funcionais
