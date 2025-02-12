@@ -28,7 +28,7 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 ## 2.2 Testes Associados aos Requisitos Funcionais
 
 <div align="center">
-<sub>Tabela 1 - Testes Associados aos Requisitos Funcionais</sub><br>
+<sub>Tabela 2 - Testes Associados aos Requisitos Funcionais</sub><br>
 
 | **Caso de Teste** | **RF#** | **Descrição do Teste** | **Pré-condição** | **Caso de Aceite** | **Caso de Recusa** |
 |-------------------|---------|------------------------|------------------|--------------------|--------------------|
