@@ -8,7 +8,7 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 
 ## 2.1 Requisitos Funcionais
 
-<div align="left">
+<div align="center">
 <sub>Tabela 1 - Requisitos Funcionais</sub><br>
 
 | **Código** | **Requisito** | **Descrição (5W2H)** |
