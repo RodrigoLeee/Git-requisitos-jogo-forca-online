@@ -27,6 +27,23 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 
 ## 2.2 Testes Associados Aos Requisitos Funcionais
 
+<div align="center">
+<sub>Tabela 1 - Testes Associados aos Requisitos Funcionais</sub><br>
+
+| **Caso de Teste** | **RF#** | **Descrição do Teste** | **Pré-condição** | **Caso de Aceite** | **Caso de Recusa** |
+|-------------------|---------|------------------------|------------------|--------------------|--------------------|
+| **CT001** | RF001 | Verificar se o jogador pode se cadastrar e fazer login. | Nenhum usuário logado. | O jogador consegue criar uma conta e fazer login. | O jogador não consegue se cadastrar ou logar. |
+| **CT002** | RF002 | Verificar se um jogador pode criar uma partida. | Jogador autenticado. | A partida é criada com sucesso. | A partida não é criada. |
+| **CT003** | RF003 | Verificar se o criador da partida pode escolher uma palavra. | Partida criada. | A palavra é escolhida e armazenada. | A palavra não é aceita. |
+| **CT004** | RF004 | Verificar se as rodadas alternadas funcionam corretamente. | Partida em andamento. | Cada jogador tem sua vez de tentar adivinhar uma letra. | A rodada não alterna corretamente. |
+| **CT005** | RF005 | Verificar se o estado do jogo é exibido corretamente. | Partida em andamento. | A palavra parcial, letras erradas e tentativas restantes são exibidas. | O estado do jogo não é atualizado. |
+| **CT006** | RF006 | Verificar se a partida é encerrada corretamente. | Condições de término atendidas. | A partida é encerrada e os jogadores são notificados. | A partida não é encerrada. |
+| **CT007** | RF007 | Verificar se o chat funciona durante a partida. | Partida em andamento. | As mensagens são enviadas e recebidas corretamente. | O chat não funciona. |
+| **CT008** | RF008 | Verificar se a pontuação é calculada e exibida corretamente. | Partida encerrada. | A pontuação é exibida no perfil do jogador. | A pontuação não é calculada ou exibida. |
+
+<sup>Fonte: Material produzido pelos autores (2025) </sup>
+</div>
+
 ## 2.3 Requisitos Não Funcionais
 
 ## 2.4 Testes Associados Aos Requisitos Nãoo Funcionais
