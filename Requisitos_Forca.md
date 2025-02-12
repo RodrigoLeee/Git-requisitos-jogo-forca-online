@@ -46,4 +46,17 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 
 ## 2.3 Requisitos Não Funcionais
 
+<div align="center">
+<sub>Tabela 3 - Requisitos Não Funcionais</sub><br>
+
+| **Código** | **Requisito** | **Descrição (5W2H)** | **Adequação à ISO 25010** | **Priorização** |
+|------------|---------------|----------------------|---------------------------|-----------------|
+| **RNF001** | Tempo de Resposta | **What:** O sistema deve responder a cada interação em menos de 2 segundos. **Why:** Para garantir uma experiência fluida. **Who:** Todos os usuários. **Where:** Em todas as interações do sistema. **When:** Durante todo o uso do sistema. **How:** Otimizando o código e a infraestrutura. **How Much:** O tempo de resposta deve ser consistentemente abaixo de 2 segundos. | **Desempenho:** O sistema deve ser eficiente em termos de tempo de resposta. **Usabilidade:** A experiência do usuário deve ser fluida e sem atrasos perceptíveis. | **Alta** |
+| **RNF002** | Suporte a Diferentes Dispositivos | **What:** O sistema deve ser acessível por navegadores web e dispositivos móveis. **Why:** Para garantir a acessibilidade. **Who:** Todos os usuários. **Where:** Em qualquer dispositivo com navegador web. **When:** Durante todo o uso do sistema. **How:** Utilizando design responsivo e tecnologias web compatíveis. **How Much:** O sistema deve funcionar em 99% dos dispositivos testados. | **Usabilidade:** O sistema deve ser compatível com diferentes dispositivos para garantir acessibilidade. **Portabilidade:** Deve funcionar em múltiplos ambientes e plataformas. | **Média** |
+| **RNF003** | Segurança dos Dados | **What:** O sistema deve armazenar dados de forma segura. **Why:** Para evitar acessos não autorizados. **Who:** Todos os usuários. **Where:** No banco de dados e durante a transmissão de dados. **When:** Durante todo o uso do sistema. **How:** Utilizando criptografia e práticas de segurança recomendadas. **How Much:** O sistema deve passar em auditorias de segurança sem falhas críticas. | **Segurança:** O sistema deve proteger os dados contra acessos não autorizados e garantir a confidencialidade e integridade das informações. **Confiabilidade:** Deve ser resistente a falhas e ataques. | **Alta** |
+| **RNF004** | Escalabilidade | **What:** O sistema deve suportar um grande número de jogadores simultaneamente. **Why:** Para garantir a disponibilidade. **Who:** Todos os usuários. **Where:** Em toda a infraestrutura do sistema. **When:** Durante picos de uso. **How:** Utilizando arquitetura escalável e balanceamento de carga. **How Much:** O sistema deve suportar até 10.000 usuários simultâneos. | **Desempenho:** O sistema deve manter o desempenho mesmo sob alta carga. **Escalabilidade:** Deve ser capaz de crescer para atender a demandas crescentes. **Confiabilidade:** Deve funcionar de forma estável em diferentes cenários de uso. | **Média** |
+
+<sup>Fonte: Material produzido pelos autores (2025) </sup>
+</div>
+
 ## 2.4 Testes Associados aos Requisitos Nãoo Funcionais
