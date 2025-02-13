@@ -60,3 +60,16 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 </div>
 
 ## 2.4 Testes Associados aos Requisitos Não Funcionais
+
+<div align="center">
+<sub>Tabela 4 - Testes Associados aos Requisitos Não Funcionais</sub><br>
+
+| **Caso de Teste** | **RNF#** | **Descrição do Teste** | **Pré-condição** | **Caso de Aceite** | **Caso de Recusa** |
+|-------------------|----------|------------------------|------------------|--------------------|--------------------|
+| **CT009** | RNF001 | Verificar o tempo de resposta do sistema. | Sistema em funcionamento. | Todas as interações respondem em menos de 2 segundos. | O tempo de resposta excede 2 segundos. |
+| **CT010** | RNF002 | Verificar a compatibilidade com diferentes dispositivos. | Dispositivos variados. | O sistema funciona corretamente em todos os dispositivos testados. | O sistema não funciona em algum dispositivo. |
+| **CT011** | RNF003 | Verificar a segurança dos dados. | Dados armazenados e transmitidos. | Os dados estão protegidos contra acessos não autorizados. | Falhas de segurança são detectadas. |
+| **CT012** | RNF004 | Verificar a escalabilidade do sistema. | Sistema sob carga. | O sistema suporta 10.000 usuários simultâneos. | O sistema falha sob carga. |
+
+<sup>Fonte: Material produzido pelos autores (2025) </sup>
+</div>
