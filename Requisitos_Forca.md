@@ -4,10 +4,19 @@
 - Requisitos do software para um jogo de forca online.
 - O Jogo de Forca Online é um multiplayer onde um jogador define a palavra secreta e os demais tentam adivinhá-la, sugerindo letras em rodadas alternadas. O sistema exibe a palavra parcialmente revelada, letras usadas e tentativas restantes. A partida termina quando a palavra é descoberta, os jogadores desistem ou o tempo se esgota. O jogo é acessível, escalável e suporta múltiplos dispositivos, com pontuação baseada no desempenho.
 
-# 2. Especificação (dos Requisitos)
+# 2. Arte Conceitual (Concept Art)
+
+
+<div align="center">
+<sub>Figura 1 - Arte Conceitual/Concept Art</sub><br>
+<img src="documentos\img\ConceptArt.png" width="80%"><br>
+<sup>Fonte: Material produzido pelos autores (2025) </sup>
+</div>
+
+# 3. Especificação (dos Requisitos)
 A seção de especificação de requisitos tem como objetivo detalhar os Requisitos Funcionais e os Requisitos Não Funcionais necessários para o desenvolvimento de um jogo de forca online. Os Requisitos Funcionais descrevem as funcionalidades específicas que o sistema deve oferecer, como a interação do usuário, a lógica do jogo e as regras de funcionamento. Já os Requisitos Não Funcionais definem aspectos relacionados ao desempenho, usabilidade, segurança e outras características que garantem a qualidade e a eficiência do jogo. Esta seção busca fornecer uma visão clara e estruturada das necessidades do projeto, servindo como guia para a equipe de desenvolvimento.
 
-## 2.1 Requisitos Funcionais
+## 3.1 Requisitos Funcionais
 
 <div align="center">
 <sub>Tabela 1 - Requisitos Funcionais</sub><br>
@@ -26,7 +35,7 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 <sup>Fonte: Material produzido pelos autores (2025) </sup>
 </div>
 
-## 2.2 Testes Associados aos Requisitos Funcionais
+## 3.2 Testes Associados aos Requisitos Funcionais
 
 <div align="center">
 <sub>Tabela 2 - Testes Associados aos Requisitos Funcionais</sub><br>
@@ -45,7 +54,7 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 <sup>Fonte: Material produzido pelos autores (2025) </sup>
 </div>
 
-## 2.3 Requisitos Não Funcionais
+## 3.3 Requisitos Não Funcionais
 
 <div align="center">
 <sub>Tabela 3 - Requisitos Não Funcionais</sub><br>
@@ -60,7 +69,7 @@ A seção de especificação de requisitos tem como objetivo detalhar os Requisi
 <sup>Fonte: Material produzido pelos autores (2025) </sup>
 </div>
 
-## 2.4 Testes Associados aos Requisitos Não Funcionais
+## 3.4 Testes Associados aos Requisitos Não Funcionais
 
 <div align="center">
 <sub>Tabela 4 - Testes Associados aos Requisitos Não Funcionais</sub><br>
